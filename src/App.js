@@ -1,24 +1,20 @@
-import logo from './logo.svg';
 import './App.css';
+import "bootstrap/dist/css/bootstrap.min.css"
+import SelectVehicle from './SelectVehicle/SelectVehicle';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+
+    <SelectVehicle/>
+
+    // <div>
+    //   <div className="bgimg"></div>
+    //   <div className="text">
+    //     <div className="title">DOORSTEP GARAGE</div>
+    //     <div className="slogan">we take care of your vehicles</div>
+    //     <button className="my-2 p-2">Get Started</button>
+    //   </div>
+    // </div>
   );
 }
 
