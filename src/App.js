@@ -1,20 +1,26 @@
 import './App.css';
 import "bootstrap/dist/css/bootstrap.min.css"
 import SelectVehicle from './SelectVehicle/SelectVehicle';
+import Home from './Home/Home';
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
+import SelectGarage from './SelectGarage/SelectGarage';
+import Registration from './Registration/Registration';
 
 function App() {
   return (
+    <>
+<div>
+  <BrowserRouter>
+  <Routes>
+    <Route path='/' element={<Home/>}/>
+    <Route path='SelectVehicle' element={<SelectVehicle/>}/>
+    <Route path='/SelectGarage' element={<SelectGarage/>}/>
+    <Route path='/Registration' element={<Registration/>}/>
+    </Routes>
+    </BrowserRouter>
+</div>
+    </>
 
-    <SelectVehicle/>
-
-    // <div>
-    //   <div className="bgimg"></div>
-    //   <div className="text">
-    //     <div className="title">DOORSTEP GARAGE</div>
-    //     <div className="slogan">we take care of your vehicles</div>
-    //     <button className="my-2 p-2">Get Started</button>
-    //   </div>
-    // </div>
   );
 }
 

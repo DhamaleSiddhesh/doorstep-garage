@@ -1,0 +1,43 @@
+.{
+    background-color: #ccc;
+}
+
+.page {
+    background-color: #ccc;
+}
+
+.Rborder {
+    box-shadow: 1px 1px 5px 0.5px #354052;
+    background-color: #ccc;
+    display: flex;
+    justify-content: center;
+    margin: 20px auto 0px;
+    padding: 10px;
+    width: 20%;
+}
+
+.Registration {
+    font-size: 32px;
+    font-weight: bolder;
+    font-family: serif;
+    text-align: center;
+    color: navy;
+}
+
+.box {
+    background-color: white;
+    font-size: medium;
+    margin-left: 5px;
+}
+
+.Rbutton {
+    text-align: center;
+    margin:auto;
+    width: 100px;
+    height: 30px;
+    background-color: green;
+    font-size: small;
+    font-weight: bolder;
+    color: black;
+    
+}

@@ -1,0 +1,40 @@
+.drop {
+  text-align: center;
+
+}
+
+.bgimg {
+  height: 100vh;
+  background-image: url("D:\React\routing-demo\src\resources\Assets\pexels-pixabay-162553.jpg");
+  background-position: left;
+  filter: blur(8px);
+}
+
+.dbox {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+}
+
+
+.button {
+  text-align:center;
+  margin: auto;
+  width: 100px;
+  background-color: skyblue;
+  font-size:small;
+  font-weight: bolder;
+  color: black;
+
+}
+.display{
+  display: flex;
+  justify-content: space-around;
+}
+.center{
+  /* display: flex; */
+  justify-content: center;
+  margin: auto;
+}
