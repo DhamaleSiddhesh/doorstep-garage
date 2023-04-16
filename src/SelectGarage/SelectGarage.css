@@ -3,8 +3,9 @@
 }
 
 .txt{
-    color:black;
+    color:navy;
     font-family:monospace;
+    font-weight: bolder;
 }
 
 .border {
@@ -15,6 +16,10 @@
 }
 button{
     background-color: green;
-    color: black;
+    color: white;
     font-weight: bolder;
+    border-radius: 5px;
+}
+.borderRadius{
+    border-radius: 10px;
 }

@@ -1,40 +1,41 @@
-.drop {
-  text-align: center;
-
-}
-
-.bgimg {
-  height: 100vh;
-  background-image: url("D:\React\routing-demo\src\resources\Assets\pexels-pixabay-162553.jpg");
-  background-position: left;
-  filter: blur(8px);
-}
-
 .dbox {
   position: absolute;
-  top: 40%;
-  left: 50%;
+  top: 30%;
+  left: 80%;
   transform: translate(-50%, -50%);
-
 }
 
-
-.button {
-  text-align:center;
+.select {
+  text-align: center;
   margin: auto;
   width: 100px;
   background-color: skyblue;
-  font-size:small;
+  font-size: small;
   font-weight: bolder;
   color: black;
+  border-radius: 10px;
+  height: 30px;
+  align-items: center;
+  border-color: transparent;
 
 }
-.display{
+
+.display {
   display: flex;
   justify-content: space-around;
 }
-.center{
+
+.center {
   /* display: flex; */
   justify-content: center;
   margin: auto;
+}
+
+.radius {
+  border-radius: 25px;
+}
+
+.dropdown{
+  background-color:rgb(64, 206, 254);
+  color: black;
 }
