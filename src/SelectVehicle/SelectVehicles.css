@@ -29,9 +29,11 @@
   /* display: flex; */
   justify-content: center;
   margin: auto;
+  
 }
-
-.radius {
+.cards{
+  background-color:  #e6f0ff;
+  box-shadow: 1px 1px 5px 0.5px #354052;
   border-radius: 25px;
 }
 

@@ -162,5 +162,10 @@
                "charges": "***",
                "adress": "Ale"
           }
-     ]
+     ],
+     "users" : [{"name": "siddhesh","email":"dhamalesiddhesh@07gmail.com","phoneNo":"9561856673","address":["otur","alephata","ale","belhe","rajuri"]},
+                {"name": "rushi","email":"sheterushi@gmail.com","phoneNo":"95618556045","address":["otur","alephata","ale","belhe","rajuri"]},
+                {"name": "ritik","email":"dumbreritik@07gmail.com","phoneNo":"9561856673","address":["otur","alephata","ale","belhe","rajuri"]},
+                {"name": "rohan","email":"dhamalesiddhesh@07gmail.com","phoneNo":"9561856673","address":["otur","alephata","ale","belhe","rajuri"]},
+                {"name": "karan","email":"dhamalesiddhesh@07gmail.com","phoneNo":"9561856673","address":["otur","alephata","ale","belhe","rajuri"]}]
 }

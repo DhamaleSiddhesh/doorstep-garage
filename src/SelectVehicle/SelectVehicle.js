@@ -126,14 +126,14 @@ function SelectVehicle() {
                         services.map((element) => {
                             console.log('element:', element);
                             return (
-                                <div className='border  mt-2 mx-3 border-2 border-secondary radius'>
+                                <div className='border  my-2 mx-3  cards'>
                                     <dt>{element.Name}</dt>
                                     <div>{element.Rate}</div>
                                     <button className='my-2 select' type='button' onClick={selectvehicle}>Select</button>
                                 </div>
                             )
                         }) :
-                        "Please select vehicle type"
+                        <div className='text-center'>"Please select vehicle type"</div>
                 }
             </div>
 
