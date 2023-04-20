@@ -1,0 +1,166 @@
+{
+     "cities": [
+          "Otur",
+          "Alephata",
+          "Rajuri",
+          "Ale",
+          "Belhe"
+     ],
+     "twoWheelerBrand": [
+          "Honda",
+          "Hero",
+          "Tvs",
+          "Bajaj",
+          "Yamaha",
+          "Royal Enfield"
+     ],
+     "fourWheelerBrand": [
+          "Toyota",
+          "Ford",
+          "Mahindra",
+          "Tata",
+          "Maruti Suzuki",
+          "Nisan",
+          "Hyundai",
+          "Kia",
+          "BMW",
+          "Mercedes",
+          "Audi"
+     ],
+     "fourWheelerServices": [
+          {
+               "name": "Washing",
+               "rate": "250 RS"
+          },
+          {
+               "name": "Regular servicing",
+               "rate": "2500 RS"
+          },
+          {
+               "name": "Oil change",
+               "rate": "1000 RS"
+          },
+          {
+               "name": "Puncture",
+               "rate": "100 RS"
+          },
+          {
+               "name": "Engine work",
+               "rate": "min. 10000 RS"
+          },
+          {
+               "name": "Filter change",
+               "rate": "5000 RS"
+          },
+          {
+               "name": "Electric Problem",
+               "rate": "min. 500 RS"
+          },
+          {
+               "name": "Starter Problem",
+               "rate": "min. 1000 RS"
+          },
+          {
+               "name": "Not turning on ?",
+               "rate": "min. 1000 RS"
+          },
+          {
+               "name": "Battery",
+               "rate": "min. 4000 RS"
+          },
+          {
+               "name": "Denting",
+               "rate": "min. 2500 RS"
+          },
+          {
+               "name": "Penting",
+               "rate": "25000 RS"
+          }
+     ],
+     "twoWheelerServices": [
+          {
+               "name": "Washing1",
+               "rate": "100 RS"
+          },
+          {
+               "name": "Regular servicing",
+               "rate": "1000 RS"
+          },
+          {
+               "name": "Oil change",
+               "rate": "500 RS"
+          },
+          {
+               "name": "Puncture",
+               "rate": "100 RS"
+          },
+          {
+               "name": "Engine work",
+               "rate": "min. 10000 RS"
+          },
+          {
+               "name": "Filter change",
+               "rate": "500 RS"
+          },
+          {
+               "name": "Electric Problem",
+               "rate": "min. 500 RS"
+          },
+          {
+               "name": "Starter Problem",
+               "rate": "min. 1000 RS"
+          },
+          {
+               "name": "Not turning on ?",
+               "rate": "min. 1000 RS"
+          },
+          {
+               "name": "Battery",
+               "rate": "min. 2000 RS"
+          },
+          {
+               "name": "denting",
+               "rate": "min. 2500 RS"
+          },
+          {
+               "name": "Penting",
+               "rate": "25000 RS"
+          }
+     ],
+     "type": [
+          "Two Wheeler",
+          "Four Wheeler"
+     ],
+     "garage": [
+          {
+               "name": "Viki cars and bike services",
+               "rating": "****",
+               "charges": "***",
+               "adress": "Otur"
+          },
+          {
+               "name": "Viki cars and bike services",
+               "rating": "****",
+               "charges": "***",
+               "adress": "Rajuri"
+          },
+          {
+               "name": "Viki cars and bike services",
+               "rating": "****",
+               "charges": "***",
+               "adress": "Alephata"
+          },
+          {
+               "name": "Viki cars and bike services",
+               "rating": "****",
+               "charges": "***",
+               "adress": "Belhe"
+          },
+          {
+               "name": "Viki cars and bike services",
+               "rating": "****",
+               "charges": "***",
+               "adress": "Ale"
+          }
+     ]
+}

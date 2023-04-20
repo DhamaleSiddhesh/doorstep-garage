@@ -10,6 +10,7 @@ function SelectVehicle() {
     const [city, setCity] = useState();
     const [vehicleType, setVehicleType] = useState();
     const [brand, setBrand] = useState();
+    
 
     const navigate = useNavigate()
     const selectvehicle = () => {
@@ -49,7 +50,6 @@ function SelectVehicle() {
     const type = ["Two Wheeler", "Four Wheeler"]
 
 
-
     const handleCityChange = (event) => {
         setCity(event.target.value)
     }
@@ -64,6 +64,7 @@ function SelectVehicle() {
     console.log("50", city);
     console.log("50", vehicleType);
     console.log("50", brand);
+
     let vehicleBrand = [];
     if (vehicleType === "Two Wheeler") {
         vehicleBrand = twoWheelerBrand;
