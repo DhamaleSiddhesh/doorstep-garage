@@ -11,11 +11,16 @@ function SelectGarage() {
         navigate('/registration')
     }
     const garage = [
+        { Name: "omsai cars and bike services", Rating: "****", charges: "***", Adress: "Otur" },
         { Name: "Viki cars and bike services", Rating: "****", charges: "***", Adress: "Otur" },
-        { Name: "Viki cars and bike services", Rating: "****", charges: "***", Adress: "Rajuri" },
-        { Name: "Viki cars and bike services", Rating: "****", charges: "***", Adress: "Alephata" },
-        { Name: "Viki cars and bike services", Rating: "****", charges: "***", Adress: "Belhe" },
-        { Name: "Viki cars and bike services", Rating: "****", charges: "***", Adress: "Ale" }]
+        { Name: "shree cars and bike services", Rating: "****", charges: "***", Adress: "Otur" },
+        { Name: "moraya cars and bike services", Rating: "****", charges: "***", Adress: "Otur" },
+        { Name: "swaraj cars and bike services", Rating: "****", charges: "***", Adress: "Otur" },
+        { Name: "shinde brothers cars and bike services", Rating: "****", charges: "***", Adress: "Otur" },
+        { Name: "All Solution cars and bike services", Rating: "****", charges: "***", Adress: "Rajuri" },
+        { Name: "Empire auto Garage", Rating: "****", charges: "***", Adress: "Alephata" },
+        { Name: "Echo tech car services", Rating: "****", charges: "***", Adress: "Belhe" },
+        { Name: "Ride 4 life", Rating: "****", charges: "***", Adress: "Ale" }]
 
     let city = state.city
     let filteredGarages = garage.filter((element) => city === element.Adress)
@@ -29,7 +34,7 @@ function SelectGarage() {
 
                 return (
 
-                    <div className="border mt-3 mx-3 border-3 border-primary borderRadius" >
+                    <div className="border mt-3 mx-3 cardColor cards" >
                         <dt>{element.Name}</dt>
                         <div><strong>Rating :</strong> {element.Rating}</div>
                         <div><strong>Location :</strong> {element.Adress}</div>

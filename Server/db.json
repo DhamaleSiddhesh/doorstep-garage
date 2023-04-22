@@ -133,39 +133,126 @@
      ],
      "garage": [
           {
-               "name": "Viki cars and bike services",
-               "rating": "****",
+               "Name": "omsai cars and bike services",
+               "Rating": "****",
                "charges": "***",
-               "adress": "Otur"
+               "Adress": "Otur"
           },
           {
-               "name": "Viki cars and bike services",
-               "rating": "****",
+               "Name": "Viki cars and bike services",
+               "Rating": "****",
                "charges": "***",
-               "adress": "Rajuri"
+               "Adress": "Otur"
           },
           {
-               "name": "Viki cars and bike services",
-               "rating": "****",
+               "Name": "shree cars and bike services",
+               "Rating": "****",
                "charges": "***",
-               "adress": "Alephata"
+               "Adress": "Otur"
           },
           {
-               "name": "Viki cars and bike services",
-               "rating": "****",
+               "Name": "moraya cars and bike services",
+               "Rating": "****",
                "charges": "***",
-               "adress": "Belhe"
+               "Adress": "Otur"
           },
           {
-               "name": "Viki cars and bike services",
-               "rating": "****",
+               "Name": "swaraj cars and bike services",
+               "Rating": "****",
                "charges": "***",
-               "adress": "Ale"
+               "Adress": "Otur"
+          },
+          {
+               "Name": "shinde brothers cars and bike services",
+               "Rating": "****",
+               "charges": "***",
+               "Adress": "Otur"
+          },
+          {
+               "Name": "All Solution cars and bike services",
+               "Rating": "****",
+               "charges": "***",
+               "Adress": "Rajuri"
+          },
+          {
+               "Name": "Empire auto Garage",
+               "Rating": "****",
+               "charges": "***",
+               "Adress": "Alephata"
+          },
+          {
+               "Name": "Echo tech car services",
+               "Rating": "****",
+               "charges": "***",
+               "Adress": "Belhe"
+          },
+          {
+               "Name": "Ride 4 life",
+               "Rating": "****",
+               "charges": "***",
+               "Adress": "Ale"
           }
      ],
-     "users" : [{"name": "siddhesh","email":"dhamalesiddhesh@07gmail.com","phoneNo":"9561856673","address":["otur","alephata","ale","belhe","rajuri"]},
-                {"name": "rushi","email":"sheterushi@gmail.com","phoneNo":"95618556045","address":["otur","alephata","ale","belhe","rajuri"]},
-                {"name": "ritik","email":"dumbreritik@07gmail.com","phoneNo":"9561856673","address":["otur","alephata","ale","belhe","rajuri"]},
-                {"name": "rohan","email":"dhamalesiddhesh@07gmail.com","phoneNo":"9561856673","address":["otur","alephata","ale","belhe","rajuri"]},
-                {"name": "karan","email":"dhamalesiddhesh@07gmail.com","phoneNo":"9561856673","address":["otur","alephata","ale","belhe","rajuri"]}]
+     "users": [
+          {
+               "name": "siddhesh",
+               "email": "dhamalesiddhesh@07gmail.com",
+               "phoneNo": "9561856673",
+               "address": [
+                    "otur",
+                    "alephata",
+                    "ale",
+                    "belhe",
+                    "rajuri"
+               ]
+          },
+          {
+               "name": "rushi",
+               "email": "sheterushi@gmail.com",
+               "phoneNo": "95618556045",
+               "address": [
+                    "otur",
+                    "alephata",
+                    "ale",
+                    "belhe",
+                    "rajuri"
+               ]
+          },
+          {
+               "name": "ritik",
+               "email": "dumbreritik@07gmail.com",
+               "phoneNo": "9561856673",
+               "address": [
+                    "otur",
+                    "alephata",
+                    "ale",
+                    "belhe",
+                    "rajuri"
+               ]
+          },
+          {
+               "name": "rohan",
+               "email": "dhamalesiddhesh@07gmail.com",
+               "phoneNo": "9561856673",
+               "address": [
+                    "otur",
+                    "alephata",
+                    "ale",
+                    "belhe",
+                    "rajuri"
+               ]
+          },
+          {
+               "name": "karan",
+               "email": "dhamalesiddhesh@07gmail.com",
+               "phoneNo": "9561856673",
+               "address": [
+                    "otur",
+                    "alephata",
+                    "ale",
+                    "belhe",
+                    "rajuri"
+               ]
+          }
+     ]
 }

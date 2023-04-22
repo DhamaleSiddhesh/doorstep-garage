@@ -23,3 +23,6 @@ button{
 .borderRadius{
     border-radius: 10px;
 }
+.cardColor{
+    background-color: rgb(221, 248, 221);
+}
