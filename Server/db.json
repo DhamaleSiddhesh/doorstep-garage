@@ -1,258 +1,293 @@
 {
-     "cities": [
-          "Otur",
-          "Alephata",
-          "Rajuri",
-          "Ale",
-          "Belhe"
-     ],
-     "twoWheelerBrand": [
-          "Honda",
-          "Hero",
-          "Tvs",
-          "Bajaj",
-          "Yamaha",
-          "Royal Enfield"
-     ],
-     "fourWheelerBrand": [
-          "Toyota",
-          "Ford",
-          "Mahindra",
-          "Tata",
-          "Maruti Suzuki",
-          "Nisan",
-          "Hyundai",
-          "Kia",
-          "BMW",
-          "Mercedes",
-          "Audi"
-     ],
-     "fourWheelerServices": [
-          {
-               "name": "Washing",
-               "rate": "250 RS"
-          },
-          {
-               "name": "Regular servicing",
-               "rate": "2500 RS"
-          },
-          {
-               "name": "Oil change",
-               "rate": "1000 RS"
-          },
-          {
-               "name": "Puncture",
-               "rate": "100 RS"
-          },
-          {
-               "name": "Engine work",
-               "rate": "min. 10000 RS"
-          },
-          {
-               "name": "Filter change",
-               "rate": "5000 RS"
-          },
-          {
-               "name": "Electric Problem",
-               "rate": "min. 500 RS"
-          },
-          {
-               "name": "Starter Problem",
-               "rate": "min. 1000 RS"
-          },
-          {
-               "name": "Not turning on ?",
-               "rate": "min. 1000 RS"
-          },
-          {
-               "name": "Battery",
-               "rate": "min. 4000 RS"
-          },
-          {
-               "name": "Denting",
-               "rate": "min. 2500 RS"
-          },
-          {
-               "name": "Penting",
-               "rate": "25000 RS"
-          }
-     ],
-     "twoWheelerServices": [
-          {
-               "name": "Washing1",
-               "rate": "100 RS"
-          },
-          {
-               "name": "Regular servicing",
-               "rate": "1000 RS"
-          },
-          {
-               "name": "Oil change",
-               "rate": "500 RS"
-          },
-          {
-               "name": "Puncture",
-               "rate": "100 RS"
-          },
-          {
-               "name": "Engine work",
-               "rate": "min. 10000 RS"
-          },
-          {
-               "name": "Filter change",
-               "rate": "500 RS"
-          },
-          {
-               "name": "Electric Problem",
-               "rate": "min. 500 RS"
-          },
-          {
-               "name": "Starter Problem",
-               "rate": "min. 1000 RS"
-          },
-          {
-               "name": "Not turning on ?",
-               "rate": "min. 1000 RS"
-          },
-          {
-               "name": "Battery",
-               "rate": "min. 2000 RS"
-          },
-          {
-               "name": "denting",
-               "rate": "min. 2500 RS"
-          },
-          {
-               "name": "Penting",
-               "rate": "25000 RS"
-          }
-     ],
-     "type": [
-          "Two Wheeler",
-          "Four Wheeler"
-     ],
-     "garage": [
-          {
-               "Name": "omsai cars and bike services",
-               "Rating": "****",
-               "charges": "***",
-               "Adress": "Otur"
-          },
-          {
-               "Name": "Viki cars and bike services",
-               "Rating": "****",
-               "charges": "***",
-               "Adress": "Otur"
-          },
-          {
-               "Name": "shree cars and bike services",
-               "Rating": "****",
-               "charges": "***",
-               "Adress": "Otur"
-          },
-          {
-               "Name": "moraya cars and bike services",
-               "Rating": "****",
-               "charges": "***",
-               "Adress": "Otur"
-          },
-          {
-               "Name": "swaraj cars and bike services",
-               "Rating": "****",
-               "charges": "***",
-               "Adress": "Otur"
-          },
-          {
-               "Name": "shinde brothers cars and bike services",
-               "Rating": "****",
-               "charges": "***",
-               "Adress": "Otur"
-          },
-          {
-               "Name": "All Solution cars and bike services",
-               "Rating": "****",
-               "charges": "***",
-               "Adress": "Rajuri"
-          },
-          {
-               "Name": "Empire auto Garage",
-               "Rating": "****",
-               "charges": "***",
-               "Adress": "Alephata"
-          },
-          {
-               "Name": "Echo tech car services",
-               "Rating": "****",
-               "charges": "***",
-               "Adress": "Belhe"
-          },
-          {
-               "Name": "Ride 4 life",
-               "Rating": "****",
-               "charges": "***",
-               "Adress": "Ale"
-          }
-     ],
-     "users": [
-          {
-               "name": "siddhesh",
-               "email": "dhamalesiddhesh@07gmail.com",
-               "phoneNo": "9561856673",
-               "address": [
-                    "otur",
-                    "alephata",
-                    "ale",
-                    "belhe",
-                    "rajuri"
-               ]
-          },
-          {
-               "name": "rushi",
-               "email": "sheterushi@gmail.com",
-               "phoneNo": "95618556045",
-               "address": [
-                    "otur",
-                    "alephata",
-                    "ale",
-                    "belhe",
-                    "rajuri"
-               ]
-          },
-          {
-               "name": "ritik",
-               "email": "dumbreritik@07gmail.com",
-               "phoneNo": "9561856673",
-               "address": [
-                    "otur",
-                    "alephata",
-                    "ale",
-                    "belhe",
-                    "rajuri"
-               ]
-          },
-          {
-               "name": "rohan",
-               "email": "dhamalesiddhesh@07gmail.com",
-               "phoneNo": "9561856673",
-               "address": [
-                    "otur",
-                    "alephata",
-                    "ale",
-                    "belhe",
-                    "rajuri"
-               ]
-          },
-          {
-               "name": "karan",
-               "email": "dhamalesiddhesh@07gmail.com",
-               "phoneNo": "9561856673",
-               "address": [
-                    "otur",
-                    "alephata",
-                    "ale",
-                    "belhe",
-                    "rajuri"
-               ]
-          }
-     ]
+  "cities": [
+    "Otur",
+    "Alephata",
+    "Rajuri",
+    "Ale",
+    "Belhe"
+  ],
+  "type": [
+    "Two Wheeler",
+    "Four Wheeler"
+  ],
+  "twoWheelerBrand": [
+    "Honda",
+    "Hero",
+    "Tvs",
+    "Bajaj",
+    "Yamaha",
+    "Royal Enfield"
+  ],
+  "fourWheelerBrand": [
+    "Toyota",
+    "Ford",
+    "Mahindra",
+    "Tata",
+    "Maruti Suzuki",
+    "Nisan",
+    "Hyundai",
+    "Kia",
+    "BMW",
+    "Mercedes",
+    "Audi"
+  ],
+  "fourWheelerServices": [
+    {
+      "name": "Washing",
+      "rate": "250 RS"
+    },
+    {
+      "name": "Regular servicing",
+      "rate": "2500 RS"
+    },
+    {
+      "name": "Oil change",
+      "rate": "1000 RS"
+    },
+    {
+      "name": "Puncture",
+      "rate": "100 RS"
+    },
+    {
+      "name": "Engine work",
+      "rate": "min. 10000 RS"
+    },
+    {
+      "name": "Filter change",
+      "rate": "5000 RS"
+    },
+    {
+      "name": "Electric Problem",
+      "rate": "min. 500 RS"
+    },
+    {
+      "name": "Starter Problem",
+      "rate": "min. 1000 RS"
+    },
+    {
+      "name": "Not turning on ?",
+      "rate": "min. 1000 RS"
+    },
+    {
+      "name": "Battery",
+      "rate": "min. 4000 RS"
+    },
+    {
+      "name": "Denting",
+      "rate": "min. 2500 RS"
+    },
+    {
+      "name": "Penting",
+      "rate": "25000 RS"
+    }
+  ],
+  "twoWheelerServices": [
+    {
+      "name": "Washing",
+      "rate": "100 RS"
+    },
+    {
+      "name": "Regular servicing",
+      "rate": "1000 RS"
+    },
+    {
+      "name": "Oil change",
+      "rate": "500 RS"
+    },
+    {
+      "name": "Puncture",
+      "rate": "100 RS"
+    },
+    {
+      "name": "Engine work",
+      "rate": "min. 10000 RS"
+    },
+    {
+      "name": "Filter change",
+      "rate": "500 RS"
+    },
+    {
+      "name": "Electric Problem",
+      "rate": "min. 500 RS"
+    },
+    {
+      "name": "Starter Problem",
+      "rate": "min. 1000 RS"
+    },
+    {
+      "name": "Not turning on ?",
+      "rate": "min. 1000 RS"
+    },
+    {
+      "name": "Battery",
+      "rate": "min. 2000 RS"
+    },
+    {
+      "name": "denting",
+      "rate": "min. 2500 RS"
+    },
+    {
+      "name": "Penting",
+      "rate": "25000 RS"
+    }
+  ],
+  "garages": [
+    {
+      "Name": "omsai cars and bike services",
+      "Rating": "3.5",
+      "Adress": "Otur"
+    },
+    {
+      "Name": "Viki cars and bike services",
+      "Rating": "4.5",
+      "Adress": "Otur"
+    },
+    {
+      "Name": "shree cars and bike services",
+      "Rating": "4",
+      "Adress": "Otur"
+    },
+    {
+      "Name": "moraya cars and bike services",
+      "Rating": "4.5",
+      "Adress": "Otur"
+    },
+    {
+      "Name": "swaraj cars and bike services",
+      "Rating": "5",
+      "Adress": "Otur"
+    },
+    {
+      "Name": "shinde brothers cars and bike services",
+      "Rating": "5",
+      "Adress": "Otur"
+    },
+    {
+      "Name": " cars and bike care",
+      "Rating": "3",
+      "Adress": "Rajuri"
+    },
+    {
+      "Name": "All cars and bike services",
+      "Rating": "3",
+      "Adress": "Rajuri"
+    },
+    {
+      "Name": "onSpot cars services",
+      "Rating": "3",
+      "Adress": "Rajuri"
+    },
+    {
+      "Name": "helpfull cars and bike services",
+      "Rating": "3",
+      "Adress": "Rajuri"
+    },
+    {
+      "Name": "Car Doctor",
+      "Rating": "3.5",
+      "Adress": "Alephata"
+    },
+    {
+      "Name": "Full car health checkup",
+      "Rating": "3.5",
+      "Adress": "Alephata"
+    },
+    {
+      "Name": "Empire Car and Bike Garage",
+      "Rating": "3.5",
+      "Adress": "Alephata"
+    },
+    {
+      "Name": "Car Garage",
+      "Rating": "3.5",
+      "Adress": "Alephata"
+    },
+    {
+      "Name": "Multi-Brand service",
+      "Rating": "4",
+      "Adress": "Belhe"
+    },
+    {
+      "Name": "your garage",
+      "Rating": "4",
+      "Adress": "Belhe"
+    },
+    {
+      "Name": "car point services",
+      "Rating": "4",
+      "Adress": "Belhe"
+    },
+    {
+      "Name": "shreenath services",
+      "Rating": "4",
+      "Adress": "Belhe"
+    },
+    {
+      "Name": "Ride 4 life garge",
+      "Rating": "4.5",
+      "Adress": "Ale"
+    },
+    {
+      "Name": "Bike health garage",
+      "Rating": "4",
+      "Adress": "Ale"
+    },
+    {
+      "Name": "Car Platform ",
+      "Rating": "4",
+      "Adress": "Ale"
+    },
+    {
+      "Name": "car services",
+      "Rating": "4",
+      "Adress": "Ale"
+    },
+    {
+      "Name": "Echo tech car services",
+      "Rating": "4",
+      "Adress": "Ale"
+    }
+  ],
+  "users": [
+    {
+      "id": 1,
+      "name": "DHAMALE SIDDHESH SATISH",
+      "email": "dhamalesiddhesh07@gmail.com",
+      "phoneNo": "09561856673",
+      "address": [
+        "otur"
+      ],
+      "otp":1234
+    },
+    {
+      "id": 2,
+      "name": "DHAMALE SIDDHESH SATISH",
+      "email": "dhamalesiddhesh07@gmail.com",
+      "phoneNo": "09561856673",
+      "address": [
+        "otur"
+      ],
+      "otp":2345
+    },
+    {
+      "id": 3,
+      "name": "ishwari kanse",
+      "email": "ishwari124@gmail.com",
+      "phoneNo": "9561856673",
+      "address": [
+        "rajuri"
+      ],
+      "otp":3456
+    },
+    {
+      "id": 4,
+      "name": "siddhesh dhamale",
+      "email": "dhamalesiddhesh07@gmail.com",
+      "phoneNo": "09561856673",
+      "address": [
+        "otur"
+      ],
+      "otp":4567
+    }
+  ]
 }
