@@ -1,37 +1,35 @@
 import { useNavigate } from "react-router";
 import "./Header.css"
-function Header(props){
-    console.log('props: ', props);
+function Header(props) {
     const navigate = useNavigate()
-    const login = () =>
-    {
-        navigate ('/Login')
+    const login = () => {
+        navigate('/Login')
     }
-    const registration = () =>
-    {
+    const registration = () => {
         navigate('/Registration')
     }
-    const profile = () =>
-    {
+    const profile = () => {
         navigate('/Profile')
-    } 
+    }
     const logout = () => {
+        localStorage.removeItem("email")
         navigate('/')
     }
-    return(
+    return (
         <>
-        <div className="NavBar ">
-        
-        <h4><strong>DOORSTEP GARAGE</strong></h4>
-        <div>
-            <span onClick={login} className="mx-3">Login</span>
-            <span onClick={registration} className="mx-3">Register</span>
-            <span onClick={profile} className="mx-3">Profile</span>
-            <span onClick={logout} className="mx-3">Logout</span>
-        </div>
-    </div>
-    </>
-        )
+            <div className="NavBar ">
+
+                <h4><strong>DOORSTEP GARAGE</strong></h4>
+                <div>
+                    {!localStorage.getItem("email") && <span onClick={login} className="mx-3">Login</span>}
+                    {!localStorage.getItem("email") && <span onClick={registration} className="mx-3">Register</span>}
+                    {localStorage.getItem("email") && <span className="mx-3">{localStorage.getItem("email")}</span>}
+                    {localStorage.getItem("email") && <span onClick={profile} className="mx-3">Profile</span>}
+                    {localStorage.getItem("email") && <span onClick={logout} className="mx-3">Logout</span>}
+                </div>
+            </div>
+        </>
+    )
 
 }
 export default Header;

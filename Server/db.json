@@ -257,7 +257,7 @@
       "address": [
         "otur"
       ],
-      "otp":1234
+      "otp": 1234
     },
     {
       "id": 2,
@@ -267,7 +267,7 @@
       "address": [
         "otur"
       ],
-      "otp":2345
+      "otp": 2345
     },
     {
       "id": 3,
@@ -277,7 +277,7 @@
       "address": [
         "rajuri"
       ],
-      "otp":3456
+      "otp": 3456
     },
     {
       "id": 4,
@@ -287,7 +287,43 @@
       "address": [
         "otur"
       ],
-      "otp":4567
+      "otp": 4567
+    },
+    {
+      "id": 5,
+      "name": "siddhesh dhamale",
+      "email": "dhamalesiddhesh07@gmail.com",
+      "phoneNo": "09561856673",
+      "address": [
+        "otur"
+      ]
+    },
+    {
+      "id": 6,
+      "name": "DHAMALE SIDDHESH SATISH",
+      "email": "dhamalesiddhesh07@gmail.com",
+      "phoneNo": "09561856673",
+      "address": [
+        "otur"
+      ]
+    },
+    {
+      "id": 7,
+      "name": "ishwari kanse",
+      "email": "ishwari124@gmail.com",
+      "phoneNo": "09561856673",
+      "address": [
+        "rajuri"
+      ]
+    },
+    {
+      "id": 8,
+      "name": "ishwari kanse",
+      "email": "ishwari124@gmail.com",
+      "phoneNo": "09561856673",
+      "address": [
+        "rajuri"
+      ]
     }
   ]
 }

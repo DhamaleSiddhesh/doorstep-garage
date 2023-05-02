@@ -14,44 +14,26 @@ function Login() {
         if ((email !== "") && (otp !== "")) {
             axios.get("http://localhost:8080/users").then(function (response) {
                 users = response.data
-                console.log('users: ', users);
                 let matchedUsers = users.find((user) => {
-                    console.log('user: ', user.email);
-                    console.log('email: ', email);
                     if (user.email === email) {
-                        // if (user.otp === otp) {
-                        //     alert("Login Succesful")
-                        //     navigate('/garageresponce')
-                        //     return user;
 
-                        // }
-                        // else {
-                        //     alert("Invalid OTP")
-                        //     return;
-                        // }
                         return user;
                     }
-                    // else {
-                    //     alert("Invalid Email address")
-                    //     return;
-                    // }
 
                 })
-                console.log('matchedUsers: ', matchedUsers);
-                console.log('otp: ', otp);
                 if (matchedUsers.otp == otp) {
                     alert("Login Succesful")
+                    localStorage.setItem("email",matchedUsers.email)
                     navigate('/garageresponce')
 
                 }
-                else{
+                else {
                     alert("Invalid OTP")
                 }
 
 
             })
-            console.log(email);
-            console.log(otp)
+
         }
         else {
             alert("Please enter email and otp ")

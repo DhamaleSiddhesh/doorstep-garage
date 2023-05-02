@@ -28,25 +28,21 @@ function SelectVehicle() {
     }, [])
     const getCities = () => {
         axios.get("http://localhost:8080/cities").then(function (response) {
-            // console.log('response: ', response);
             setCities(response.data)
         });
     }
     const getVehicleTypes = () => {
         axios.get("http://localhost:8080/type").then(function (response) {
-            console.log('Vtype', response);
             setVehicleTypes(response.data)
         })
     }
     const getTwoWheelerBrand = () => {
         axios.get("http://localhost:8080/twoWheelerBrand").then(function (response) {
-            console.log('abcd', response);
             setTwoWheelerBrand(response.data)
         });
     }
     const getFourWheelerBrand = () => {
         axios.get("http://localhost:8080/fourWheelerBrand").then(function (response) {
-            console.log('response: ', response);
             setFourWheelerBrand(response.data)
 
         });
@@ -54,14 +50,12 @@ function SelectVehicle() {
     }
     const getFourWheelerServices = () => {
         axios.get("http://localhost:8080/fourWheelerServices").then(function (response) {
-            console.log('abcdefg ', response);
             setFourWheelerService(response.data)
 
         });
     }
     const getTwoWheelerServices = () => {
         axios.get("http://localhost:8080/twoWheelerServices").then(function (response) {
-            console.log('response: ', response);
             setTwoWheelerService(response.data)
 
         });
@@ -74,8 +68,6 @@ function SelectVehicle() {
 
     }
 
-
-
     const handleCityChange = (event) => {
         setCity(event.target.value)
     }
@@ -87,9 +79,6 @@ function SelectVehicle() {
     const handleBrandChange = (event) => {
         setBrand(event.target.value)
     }
-    console.log("50", city);
-    console.log("50", vehicleType);
-    console.log("50", brand);
 
     let vehicleBrand = [];
     if (vehicleType === "Two Wheeler") {
@@ -102,7 +91,6 @@ function SelectVehicle() {
     let services = [];
     if (vehicleType === "Four Wheeler") {
         services = fourWheelerService;
-        console.log('fourWheelerServices: ', fourWheelerService);
     }
     else if (vehicleType === "Two Wheeler") {
         services = twoWheelerServices
@@ -151,7 +139,6 @@ function SelectVehicle() {
                 {
                     services.length !== 0 ?
                         services.map((element) => {
-                            console.log('element:', element);
                             return (
                                 <div className='border  my-2 mx-3  cards'>
                                     <dt>{element.name}</dt>

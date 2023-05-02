@@ -1,5 +1,7 @@
 
 function GarageResponce() {
+    console.log("LocalStorage",localStorage.getItem("email"));
+
     return (
         <>
             <div className="Registration">

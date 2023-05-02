@@ -17,19 +17,16 @@ function Registration() {
         if ((name !== "") && (email !== "") && (phoneNo !== "") && (address !== "")) {
 
             axios.get("http://localhost:8080/users").then(function (response) {
-                console.log('Uid ', response.data[response.data.length - 1].id + 1);
 
                 let user = { id: response.data[response.data.length - 1].id + 1, name: name, email: email, phoneNo: phoneNo, address: [address] }
-                console.log(user);
                 axios.post("http://localhost:8080/users", user).then(function (response) {
-                    console.log('usr ', response);
                     navigate('/login')
 
                 });
             })
         }
         else {
-            alert("Please Fill All The Required Fields ＞﹏＜")
+            alert("Please Fill All The Required Fields X﹏X")
         }
     }
 
