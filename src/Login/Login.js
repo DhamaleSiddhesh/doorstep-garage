@@ -4,6 +4,9 @@ import Form from 'react-bootstrap/Form';
 import { useNavigate } from 'react-router';
 
 function Login() {
+    // const dispatch = useDispatch()
+    // const user = useSelector(state => state.user)
+    // console.log('user: ', user);
     const [email, setEmail] = useState("");
     const [otp, setOTP] = useState("");
 
@@ -23,7 +26,7 @@ function Login() {
                 })
                 if (matchedUsers.otp == otp) {
                     alert("Login Succesful")
-                    localStorage.setItem("email",matchedUsers.email)
+                    localStorage.setItem("email", matchedUsers.email)
                     navigate('/garageresponce')
 
                 }
@@ -71,6 +74,6 @@ function Login() {
 
         </div>
     )
-
 }
+
 export default Login;

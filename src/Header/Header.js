@@ -1,6 +1,10 @@
 import { useNavigate } from "react-router";
 import "./Header.css"
+
 function Header(props) {
+    // const dispatch = useDispatch()
+    // const user = useSelector(state => state.user)
+    // console.log('user: ', user);
     const navigate = useNavigate()
     const login = () => {
         navigate('/Login')

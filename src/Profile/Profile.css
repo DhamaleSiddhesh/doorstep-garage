@@ -1,10 +1,14 @@
+.{
+    background-color: beige;
+}
 .Pbox{
     /* border: 1px solid black; */
     margin: 20px auto 0px;
     /* padding: 50px; */
     padding-top: 5px;
     width: 20%;
-    height: 200px;
+    height: 500px;
+    background-color:aliceblue;
 }
 .Profile{
     padding: 5px;

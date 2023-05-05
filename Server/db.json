@@ -79,6 +79,10 @@
     {
       "name": "Penting",
       "rate": "25000 RS"
+    },
+    {
+      "name":"Breck Check"
+      "rate"
     }
   ],
   "twoWheelerServices": [
