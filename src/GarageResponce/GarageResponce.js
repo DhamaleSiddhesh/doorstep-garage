@@ -1,6 +1,6 @@
 
 function GarageResponce() {
-    console.log("LocalStorage",localStorage.getItem("email"));
+    console.log("LocalStorage", localStorage.getItem("email"));
 
     return (
         <>
@@ -9,6 +9,7 @@ function GarageResponce() {
             </div>
             < div className='bodycolor'>
                 <div className='Rborder '>
+                    <div>{`Your Selected Service is ${localStorage.getItem("serviceName")} - ${localStorage.getItem("servicePrice")}`}</div>
                     <strong>Mechanic Details...</strong>
                     <div>Name : ABC</div>
                     <div>Contact no. : </div>

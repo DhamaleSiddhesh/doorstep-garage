@@ -10,15 +10,16 @@ function Registration() {
     const [name, setName] = useState("");
     const [email, setEmail] = useState("");
     const [phoneNo, setPhoneNo] = useState("");
+    const [password, setPassword] = useState("");
     const [address, setAddress] = useState("");
 
     const navigate = useNavigate()
     const registration = () => {
-        if ((name !== "") && (email !== "") && (phoneNo !== "") && (address !== "")) {
+        if ((name !== "") && (email !== "") && (phoneNo !== "") && (address !== "") && (password !== "")) {
 
             axios.get("http://localhost:8080/users").then(function (response) {
 
-                let user = { id: response.data[response.data.length - 1].id + 1, name: name, email: email, phoneNo: phoneNo, address: [address] }
+                let user = { id: response.data[response.data.length - 1].id + 1, name: name, email: email, phoneNo: phoneNo, password: password, address: [address] }
                 axios.post("http://localhost:8080/users", user).then(function (response) {
                     navigate('/login')
 
@@ -28,12 +29,15 @@ function Registration() {
         else {
             alert("Please Fill All The Required Fields X﹏X")
         }
+        localStorage.setItem("password",password)
+
     }
 
     const reset = () => {
         setName("")
         setEmail("")
         setPhoneNo("")
+        setPassword("")
         setAddress("")
     }
 
@@ -47,6 +51,10 @@ function Registration() {
 
     const handlePhoneNoChange = (event) => {
         setPhoneNo(event.target.value)
+    }
+
+    const handlePasswordChange = (event) => {
+        setPassword(event.target.value)
     }
 
     const handleAddressChange = (event) => {
@@ -66,10 +74,13 @@ function Registration() {
                     <label><strong>Phone no :</strong></label>
                     <Form.Control type="number" placeholder="***********" className='mb-3' onChange={handlePhoneNoChange} value={phoneNo} />
 
+                    <label><strong>Password :</strong></label>
+                    <Form.Control type="password" placeholder="password" className='mb-3' onChange={handlePasswordChange} value={password} />
+
                     <label><strong>Address :</strong></label>
                     <Form.Control type="adress" placeholder="address" className='mb-3' onChange={handleAddressChange} value={address} />
 
-                    <button type='button' className='mx-3 mt-3 Rbutton' onClick={registration}>Submit</button>
+                    <button type='button' className='mx-3 mt-3 Rbutton' onClick={registration}>Register</button>
                     <button type='button' className='mx-3 mt-3 Rbutton' onClick={reset}> Reset</button>
                 </form>
             </div>

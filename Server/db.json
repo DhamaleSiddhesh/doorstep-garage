@@ -31,108 +31,108 @@
     "Mercedes",
     "Audi"
   ],
-  "fourWheelerServices": [
+  "fourWheelerservices": [
     {
       "name": "Washing",
-      "rate": "250 RS"
+      "rate": "250 rs"
     },
     {
       "name": "Regular servicing",
-      "rate": "2500 RS"
+      "rate": "2500 rs"
     },
     {
       "name": "Oil change",
-      "rate": "1000 RS"
+      "rate": "1000 rs"
     },
     {
       "name": "Puncture",
-      "rate": "100 RS"
+      "rate": "100 rs"
     },
     {
       "name": "Engine work",
-      "rate": "min. 10000 RS"
+      "rate": " 10000 rs"
     },
     {
       "name": "Filter change",
-      "rate": "5000 RS"
+      "rate": "5000 rs"
     },
     {
       "name": "Electric Problem",
-      "rate": "min. 500 RS"
+      "rate": " 500 rs"
     },
     {
       "name": "Starter Problem",
-      "rate": "min. 1000 RS"
+      "rate": " 1000 rs"
     },
     {
       "name": "Not turning on ?",
-      "rate": "min. 1000 RS"
+      "rate": " 1000 rs"
     },
     {
       "name": "Battery",
-      "rate": "min. 4000 RS"
+      "rate": " 4000 rs"
     },
     {
       "name": "Denting",
-      "rate": "min. 2500 RS"
+      "rate": " 2500 rs"
     },
     {
       "name": "Penting",
-      "rate": "25000 RS"
+      "rate": "25000 rs"
     },
     {
-      "name":"Breck Check"
-      "rate"
+      "name": "Breck Check",
+      "rate": "500rs"
     }
   ],
-  "twoWheelerServices": [
+  "twoWheelerservices": [
     {
       "name": "Washing",
-      "rate": "100 RS"
+      "rate": "100 rs"
     },
     {
       "name": "Regular servicing",
-      "rate": "1000 RS"
+      "rate": "1000 rs"
     },
     {
       "name": "Oil change",
-      "rate": "500 RS"
+      "rate": "500 rs"
     },
     {
       "name": "Puncture",
-      "rate": "100 RS"
+      "rate": "100 rs"
     },
     {
       "name": "Engine work",
-      "rate": "min. 10000 RS"
+      "rate": " 10000 rs"
     },
     {
       "name": "Filter change",
-      "rate": "500 RS"
+      "rate": "500 rs"
     },
     {
       "name": "Electric Problem",
-      "rate": "min. 500 RS"
+      "rate": " 500 rs"
     },
     {
       "name": "Starter Problem",
-      "rate": "min. 1000 RS"
+      "rate": " 1000 rs"
     },
     {
       "name": "Not turning on ?",
-      "rate": "min. 1000 RS"
+      "rate": " 1000 rs"
     },
     {
       "name": "Battery",
-      "rate": "min. 2000 RS"
+      "rate": " 2000 rs"
     },
     {
       "name": "denting",
-      "rate": "min. 2500 RS"
+      "rate": " 2500 rs"
     },
     {
       "name": "Penting",
-      "rate": "25000 RS"
+      "rate": "25000 rs"
     }
   ],
   "garages": [
@@ -260,8 +260,7 @@
       "phoneNo": "09561856673",
       "address": [
         "otur"
-      ],
-      "otp": 1234
+      ]
     },
     {
       "id": 2,
@@ -270,8 +269,7 @@
       "phoneNo": "09561856673",
       "address": [
         "otur"
-      ],
-      "otp": 2345
+      ]
     },
     {
       "id": 3,
@@ -280,8 +278,7 @@
       "phoneNo": "9561856673",
       "address": [
         "rajuri"
-      ],
-      "otp": 3456
+      ]
     },
     {
       "id": 4,
@@ -290,8 +287,7 @@
       "phoneNo": "09561856673",
       "address": [
         "otur"
-      ],
-      "otp": 4567
+      ]
     },
     {
       "id": 5,
@@ -327,6 +323,320 @@
       "phoneNo": "09561856673",
       "address": [
         "rajuri"
+      ]
+    },
+    {
+      "id": 9,
+      "name": "DHAMALE SIDDHESH SATISH",
+      "email": "dhamalesiddhesh07@gmail.com",
+      "phoneNo": "09561856673",
+      "address": [
+        "otur"
+      ]
+    },
+    {
+      "id": 10,
+      "name": "DHAMALE SIDDHESH SATISH",
+      "email": "dhamalesiddhesh07@gmail.com",
+      "phoneNo": "09561856673",
+      "address": [
+        "otur"
+      ]
+    },
+    {
+      "id": 11,
+      "name": "DHAMALE SIDDHESH SATISH",
+      "email": "dhamalesiddhesh07@gmail.com",
+      "phoneNo": "09561856673",
+      "address": [
+        "otur"
+      ]
+    },
+    {
+      "id": 12,
+      "name": "siddhesh dhamale",
+      "email": "dhamalesiddhesh07@gmail.com",
+      "phoneNo": "09561856673",
+      "address": [
+        "otur"
+      ]
+    },
+    {
+      "id": 13,
+      "name": "DHAMALE SIDDHESH SATISH",
+      "email": "dhamalesiddhesh07@gmail.com",
+      "phoneNo": "09561856673",
+      "address": [
+        "otur"
+      ]
+    },
+    {
+      "id": 14,
+      "name": "DHAMALE SIDDHESH SATISH",
+      "email": "dhamalesiddhesh07@gmail.com",
+      "phoneNo": "09561856673",
+      "address": [
+        "otur"
+      ]
+    },
+    {
+      "id": 15,
+      "name": "DHAMALE SIDDHESH SATISH",
+      "email": "dhamalesiddhesh07@gmail.com",
+      "phoneNo": "9561856672",
+      "password": "12333",
+      "address": [
+        "otur"
+      ]
+    },
+    {
+      "id": 16,
+      "name": "DHAMALE SIDDHESH SATISH",
+      "email": "dhamalesiddhesh07@gmail.com",
+      "phoneNo": "09561856673",
+      "password": "7894",
+      "address": [
+        "otur"
+      ]
+    },
+    {
+      "id": 17,
+      "name": "DHAMALE SIDDHESH SATISH",
+      "email": "dhamalesiddhesh07@gmail.com",
+      "phoneNo": "09561856673",
+      "password": "7894",
+      "address": [
+        "otur"
+      ]
+    },
+    {
+      "id": 18,
+      "name": "DHAMALE SIDDHESH SATISH",
+      "email": "dhamalesiddhesh07@gmail.com",
+      "phoneNo": "09561856673",
+      "password": "1212",
+      "address": [
+        "otur"
+      ]
+    },
+    {
+      "id": 19,
+      "name": "DHAMALE SIDDHESH SATISH",
+      "email": "dhamalesiddhesh07@gmail.com",
+      "phoneNo": "09561856673",
+      "password": "1212",
+      "address": [
+        "otur"
+      ]
+    },
+    {
+      "id": 20,
+      "name": "DHAMALE SIDDHESH SATISH",
+      "email": "dhamalesiddhesh07@gmail.com",
+      "phoneNo": "09561856673",
+      "password": "1212",
+      "address": [
+        "otur"
+      ]
+    },
+    {
+      "id": 21,
+      "name": "sahil dhamale",
+      "email": "sahil@gmail.com",
+      "phoneNo": "9890061813",
+      "password": "5050",
+      "address": [
+        "otur"
+      ]
+    },
+    {
+      "id": 22,
+      "name": "sahil dhamale",
+      "email": "sahil@gmail.com",
+      "phoneNo": "09890061813",
+      "password": "5050",
+      "address": [
+        "otur"
+      ]
+    },
+    {
+      "id": 23,
+      "name": "sahil dhamale",
+      "email": "sahil@gmail.com",
+      "phoneNo": "09890061813",
+      "password": "5050",
+      "address": [
+        "otur"
+      ]
+    },
+    {
+      "id": 24,
+      "name": "DHAMALE SIDDHESH SATISH",
+      "email": "dhamalesiddhesh07@gmail.com",
+      "phoneNo": "09561856673",
+      "password": "1234",
+      "address": [
+        "otur"
+      ]
+    },
+    {
+      "id": 25,
+      "name": "sahil dhamale",
+      "email": "sahil@gmail.com",
+      "phoneNo": "09890061813",
+      "password": "5050",
+      "address": [
+        "otur"
+      ]
+    },
+    {
+      "id": 26,
+      "name": "DHAMALE SIDDHESH SATISH",
+      "email": "dhamalesiddhesh07@gmail.com",
+      "phoneNo": "09561856673",
+      "password": "1212",
+      "address": [
+        "otur"
+      ]
+    },
+    {
+      "id": 27,
+      "name": "DHAMALE SIDDHESH SATISH",
+      "email": "dhamalesiddhesh07@gmail.com",
+      "phoneNo": "09561856673",
+      "password": "1212",
+      "address": [
+        "otur"
+      ]
+    },
+    {
+      "id": 28,
+      "name": "DHAMALE SIDDHESH SATISH",
+      "email": "dhamalesiddhesh07@gmail.com",
+      "phoneNo": "09561856673",
+      "password": "1234",
+      "address": [
+        "otur"
+      ]
+    },
+    {
+      "id": 29,
+      "name": "sahil dhamale",
+      "email": "sahil@gmail.com",
+      "phoneNo": "09890061813",
+      "password": "5050",
+      "address": [
+        "otur"
+      ]
+    },
+    {
+      "id": 30,
+      "name": "sahil dhamale",
+      "email": "sahil@gmail.com",
+      "phoneNo": "09890061813",
+      "password": "5050",
+      "address": [
+        "otur"
+      ]
+    },
+    {
+      "id": 31,
+      "name": "sahil dhamale",
+      "email": "sahil@gmail.com",
+      "phoneNo": "09890061813",
+      "password": "5050",
+      "address": [
+        "otur"
+      ]
+    },
+    {
+      "id": 32,
+      "name": "sahil dhamale",
+      "email": "sahil@gmail.com",
+      "phoneNo": "09890061813",
+      "password": "5050",
+      "address": [
+        "otur"
+      ]
+    },
+    {
+      "id": 33,
+      "name": "sahil dhamale",
+      "email": "sahil@gmail.com",
+      "phoneNo": "09890061813",
+      "password": "5050",
+      "address": [
+        "otur"
+      ]
+    },
+    {
+      "id": 34,
+      "name": "DHAMALE SIDDHESH SATISH",
+      "email": "dhamalesiddhesh07@gmail.com",
+      "phoneNo": "09561856673",
+      "password": "5050",
+      "address": [
+        "otur"
+      ]
+    },
+    {
+      "id": 35,
+      "name": "sahil dhamale",
+      "email": "sahil@gmail.com",
+      "phoneNo": "09890061813",
+      "password": "5050",
+      "address": [
+        "otur"
+      ]
+    },
+    {
+      "id": 36,
+      "name": "sahil dhamale",
+      "email": "sahil@gmail.com",
+      "phoneNo": "09890061813",
+      "password": "5050",
+      "address": [
+        "otur"
+      ]
+    },
+    {
+      "id": 37,
+      "name": "sahil dhamale",
+      "email": "sahil@gmail.com",
+      "phoneNo": "09890061813",
+      "password": "5050",
+      "address": [
+        "otur"
+      ]
+    },
+    {
+      "id": 38,
+      "name": "DHAMALE SIDDHESH SATISH",
+      "email": "dhamalesiddhesh07@gmail.com",
+      "phoneNo": "09561856673",
+      "password": "1234",
+      "address": [
+        "otur"
+      ]
+    },
+    {
+      "id": 39,
+      "name": "DHAMALE SIDDHESH SATISH",
+      "email": "dhamalesiddhesh07@gmail.com",
+      "phoneNo": "09561856673",
+      "password": "1234",
+      "address": [
+        "otur"
+      ]
+    },
+    {
+      "id": 40,
+      "name": "DHAMALE SIDDHESH SATISH",
+      "email": "dhamalesiddhesh07@gmail.com",
+      "phoneNo": "09561856673",
+      "password": "1234",
+      "address": [
+        "otur"
       ]
     }
   ]

@@ -8,9 +8,9 @@ import axios from 'axios';
 
 
 function SelectVehicle() {
-    const [city, setCity] = useState();
-    const [vehicleType, setVehicleType] = useState();
-    const [brand, setBrand] = useState();
+    const [city, setCity] = useState("");
+    const [vehicleType, setVehicleType] = useState("");
+    const [brand, setBrand] = useState("");
     const [cities, setCities] = useState([]);
     const [vehicleTypes, setVehicleTypes] = useState([]);
     const [twoWheelerBrand, setTwoWheelerBrand] = useState([]);
@@ -62,7 +62,9 @@ function SelectVehicle() {
     }
 
     const navigate = useNavigate()
-    const selectvehicle = () => {
+    const selectvehicle = (service) => {
+        localStorage.setItem("serviceName", service.name)
+        localStorage.setItem("servicePrice", service.rate)
 
         navigate("/selectgarage", { state: { city: city } })
 
@@ -112,7 +114,7 @@ function SelectVehicle() {
                         }
                     </Form.Select>
 
-                    <Form.Select className='mt-3 dropdown' onChange={handleTypeChange} value={vehicleType}>
+                    <Form.Select className='mt-3 dropdown' onChange={handleTypeChange} value={vehicleType} disabled={city === ""}>
                         <option>Type of Your Vehicle</option>
                         {
                             vehicleTypes && vehicleTypes.map((Type) => {
@@ -122,7 +124,7 @@ function SelectVehicle() {
 
                     </Form.Select>
 
-                    <Form.Select className='mt-3 dropdown' onChange={handleBrandChange} value={brand} >
+                    <Form.Select className='mt-3 dropdown' onChange={handleBrandChange} value={brand} disabled={vehicleType === ""} >
                         <option> {vehicleBrand.length !== 0 ? "Your Vehicle Brand" : "Please select vehicle type"}</option>
                         {
                             vehicleBrand.map((B) => {
@@ -143,7 +145,7 @@ function SelectVehicle() {
                                 <div className='border  my-2 mx-3  cards'>
                                     <dt>{element.name}</dt>
                                     <div>{element.rate}</div>
-                                    <button className='my-2 select' type='button' onClick={selectvehicle}>Select</button>
+                                    <button className='my-2 select' type='button' onClick={() => selectvehicle(element)}>Select</button>
                                 </div>
                             )
                         }) :

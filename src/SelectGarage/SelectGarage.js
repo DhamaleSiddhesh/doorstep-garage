@@ -7,13 +7,13 @@ import axios from 'axios';
 function SelectGarage() {
     const navigate = useNavigate()
     const { state } = useLocation()
-    
+
     const [selectedGarages, setSelectedGarages] = useState();
     const [garages, setGarages] = useState([]);
 
     useEffect(() => {
         getGarages()
-    },[])
+    }, [])
 
     const getGarages = () => {
         axios.get("http://localhost:8080/garages").then(function (response) {
@@ -21,9 +21,14 @@ function SelectGarage() {
         });
     }
     const selectgarage = () => {
-        navigate('/registration')
+        if (localStorage.getItem("email")) {
+            navigate('/GarageResponce')
+        }
+        else {
+            navigate('/registration')
+        }
     }
-   
+
     let city = state.city
     let filteredGarages = garages.filter((element) => city === element.Adress)
     return (
