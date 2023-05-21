@@ -2,11 +2,10 @@ import axios from 'axios';
 import { useState } from 'react';
 import Form from 'react-bootstrap/Form';
 import { useNavigate } from 'react-router';
+import logoImage from "../resources/Assets/mechanic.png"
+
 
 function Login() {
-    // const dispatch = useDispatch()
-    // const user = useSelector(state => state.user)
-    // console.log('user: ', user);
     const [email, setEmail] = useState("");
     const [password, setPassword] = useState("");
 
@@ -67,6 +66,10 @@ function Login() {
             < div className='bodycolor'>
                 <div className='Registration mt-3'>Login here ...</div>
                 <div className='Rborder '>
+                <div> <img className="mx-3 mb-3" src={logoImage} alt="eror" width="40" height="45"/>
+           <strong className='ml-3'> Doorstep Garage</strong>
+           </div>
+
                     <form >
 
                         <label><strong>Email :</strong></label>
@@ -75,7 +78,7 @@ function Login() {
                         <label><strong>Password:</strong></label>
                         <Form.Control type="email" className='mb-3' onChange={handlePasswordChange} value={password} />
 
-                        <button type='button' className='mx-3 mt-3 Rbutton' onClick={login}>Submit</button>
+                        <button type='button' className='mx-3 mt-3 Rbutton' onClick={login}>Login</button>
                         <button type='button' className='mx-3 mt-3 Rbutton' onClick={reset}>Reset</button>
                     </form>
                 </div>

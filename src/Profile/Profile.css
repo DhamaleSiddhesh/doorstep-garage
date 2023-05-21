@@ -21,3 +21,6 @@
     padding:40px;
     margin-top: 10px;
 }
+.logout{
+    cursor: pointer;
+}

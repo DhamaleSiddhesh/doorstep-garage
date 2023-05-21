@@ -1,10 +1,8 @@
 import { useNavigate } from "react-router";
 import "./Header.css"
+import logoImage from "../resources/Assets/mechanic.png"
 
 function Header(props) {
-    // const dispatch = useDispatch()
-    // const user = useSelector(state => state.user)
-    // console.log('user: ', user);
     const navigate = useNavigate()
     const login = () => {
         navigate('/Login')
@@ -22,8 +20,10 @@ function Header(props) {
     return (
         <>
             <div className="NavBar ">
-                <img src="src\resources\Assets\mechanic.png"></img>
-                <h4><strong>DOORSTEP GARAGE</strong></h4>
+                <div>
+                <img className="mx-3" src={logoImage} alt="eror" width="30" height="35"/>
+                <strong className="Htitle">DOORSTEP GARAGE</strong>
+                </div>
                 <div>
 
                     {!localStorage.getItem("email") && <span onClick={login} className="mx-3"><i className="fa fa-sign-in" aria-hidden="true"></i> Login</span>}

@@ -1,4 +1,4 @@
-.{
+.page{
     background-color: #ccc;
 }
 
@@ -11,6 +11,7 @@
     background-color: #ccc;
     margin: 20px auto 0px;
     padding: 50px;
+    padding-top: 5px;
     width: 25%;
 }
 

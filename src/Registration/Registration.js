@@ -3,7 +3,7 @@ import './Registration.css'
 import Form from 'react-bootstrap/Form';
 import { useState } from 'react';
 import axios from 'axios';
-import { Alert } from 'bootstrap';
+import logoImage from "../resources/Assets/mechanic.png"
 
 
 function Registration() {
@@ -64,6 +64,10 @@ function Registration() {
         < div className='bodycolor'>
             <div className='Registration mt-3'>Register for further process</div>
             <div className='Rborder '>
+           <div> <img className="mx-3 mb-3" src={logoImage} alt="eror" width="50" height="60"/>
+           <strong className='ml-3'> Doorstep Garage</strong>
+           </div>
+<hr></hr>
                 <form >
                     <label><strong>Full Name : </strong></label>
                     <Form.Control type="name" placeholder="abc pqr xyz" className='mb-3' onChange={handleNameChange} value={name} />

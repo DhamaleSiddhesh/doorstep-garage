@@ -20,7 +20,9 @@ function SelectGarage() {
             setGarages(response.data)
         });
     }
-    const selectgarage = () => {
+    const selectgarage = (garage) => {
+        localStorage.setItem("garage", garage.id)
+        console.log('garage.Name: ', garage.id);
         if (localStorage.getItem("email")) {
             navigate('/GarageResponce')
         }
@@ -44,7 +46,7 @@ function SelectGarage() {
                         <dt>{element.Name}</dt>
                         <div><strong>Rating :</strong> {element.Rating}</div>
                         <div><strong>Location :</strong> {element.Adress}</div>
-                        <button type='button' className='mt-2 mb-3 px-3' onClick={selectgarage}>Buy Service</button>
+                        <button type='button' className='mt-2 mb-3 px-3' onClick={() => selectgarage(element)}>Buy Service</button>
 
                     </div>
                 )

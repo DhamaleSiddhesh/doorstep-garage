@@ -4,7 +4,9 @@ import "./Profile.css";
 import Accordion from 'react-bootstrap/Accordion'
 import axios from "axios";
 import { useNavigate } from "react-router";
-import _ from "lodash";
+import logoImage from "../resources/Assets/mechanic.png"
+
+// import _ from "lodash";
 
 function Profile() {
     console.log('localStorage.getItem("userId"): ', localStorage.getItem("userId"));
@@ -30,14 +32,16 @@ function Profile() {
         navigate('/')
     }
 
-    console.log('user: ', user);
-    console.log('user.address[: ', user.address);
     return (
 
         <div className="Pbox">
             <i classname="fa fa-address-book" aria-hidden="true"></i>
+            <div> <img className="mx-2 mb-3" src={logoImage} alt="eror" width="50" height="60"/>
             <strong className="Profile">Profile</strong>
-            <p className="mx-3">Doorstep Garage</p>
+
+           </div>
+
+            <p className="mx-3">Doorstep Garage...</p>
             <hr></hr>
             <div className="details">
 
@@ -63,10 +67,10 @@ function Profile() {
                     <Accordion.Item
                         eventKey="0"></Accordion.Item>
                     <Accordion.Header className="acrdian">
-                        <div>History</div>
+                        <div>Last Activity</div>
                     </Accordion.Header>
                     <Accordion.Body>
-                        <div>Services you ordered :</div>
+                        <div>Service you ordered last time: {localStorage.getItem("serviceName")}</div>
 
                     </Accordion.Body>
                 </Accordion>
@@ -79,7 +83,7 @@ function Profile() {
                         <div>Other Activities</div>
                     </Accordion.Header>
                     <Accordion.Body>
-                        <div onClick={logout}>logout</div>
+                        <div className="logout" onClick={logout} >logout</div>
                     </Accordion.Body>
                 </Accordion>
 

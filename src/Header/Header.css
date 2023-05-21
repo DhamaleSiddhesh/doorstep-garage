@@ -10,3 +10,14 @@
 span{
     cursor: pointer;
 }
+
+.Htitle{
+    font-weight: bolder;
+    font-size: large;
+    color: white;
+    text-align: left;
+}
+
+.Himg{
+    padding: 0px;
+}

@@ -137,119 +137,648 @@
   ],
   "garages": [
     {
+      "id": 1,
       "Name": "omsai cars and bike services",
       "Rating": "3.5",
-      "Adress": "Otur"
+      "Adress": "Otur",
+      "mechanics": [
+        {
+          "Name": "Girish Navale",
+          "Status": "Busy",
+          "ContactNo": "9890605152"
+        },
+        {
+          "Name": "Ram Shastri",
+          "Status": "Busy",
+          "ContactNo": "9890605152"
+        },
+        {
+          "Name": "Siddhesh Dhaamale",
+          "Status": "Busy",
+          "ContactNo": "9890605152"
+        },
+        {
+          "Name": "Kran Dighe",
+          "Status": "Available",
+          "ContactNo": "9890605152"
+        }
+      ]
     },
     {
+      "id": 2,
       "Name": "Viki cars and bike services",
       "Rating": "4.5",
-      "Adress": "Otur"
+      "Adress": "Otur",
+      "mechanics": [
+        {
+          "Name": "Girish Navale",
+          "Status": "Busy",
+          "ContactNo": "9890605152"
+        },
+        {
+          "Name": "Ram Shastri",
+          "Status": "Busy",
+          "ContactNo": "9890605152"
+        },
+        {
+          "Name": "Siddhesh Dhaamale",
+          "Status": "Busy",
+          "ContactNo": "9890605152"
+        },
+        {
+          "Name": "Kran Dighe",
+          "Status": "Available",
+          "ContactNo": "9890605152"
+        }
+      ]
     },
     {
+      "id": 3,
       "Name": "shree cars and bike services",
       "Rating": "4",
-      "Adress": "Otur"
+      "Adress": "Otur",
+      "mechanics": [
+        {
+          "Name": "Girish Navale",
+          "Status": "Busy",
+          "ContactNo": "9890605152"
+        },
+        {
+          "Name": "Ram Shastri",
+          "Status": "Busy",
+          "ContactNo": "9890605152"
+        },
+        {
+          "Name": "Siddhesh Dhaamale",
+          "Status": "Busy",
+          "ContactNo": "9890605152"
+        },
+        {
+          "Name": "Kran Dighe",
+          "Status": "Available",
+          "ContactNo": "9890605152"
+        }
+      ]
     },
     {
+      "id": 4,
       "Name": "moraya cars and bike services",
       "Rating": "4.5",
-      "Adress": "Otur"
+      "Adress": "Otur",
+      "mechanics": [
+        {
+          "Name": "Girish Navale",
+          "Status": "Busy",
+          "ContactNo": "9890605152"
+        },
+        {
+          "Name": "Ram Shastri",
+          "Status": "Busy",
+          "ContactNo": "9890605152"
+        },
+        {
+          "Name": "Siddhesh Dhaamale",
+          "Status": "Busy",
+          "ContactNo": "9890605152"
+        },
+        {
+          "Name": "Kran Dighe",
+          "Status": "Available",
+          "ContactNo": "9890605152"
+        }
+      ]
     },
     {
+      "id": 2,
       "Name": "swaraj cars and bike services",
       "Rating": "5",
-      "Adress": "Otur"
+      "Adress": "Otur",
+      "mechanics": [
+        {
+          "Name": "Girish Navale",
+          "Status": "Busy",
+          "ContactNo": "9890605152"
+        },
+        {
+          "Name": "Ram Shastri",
+          "Status": "Busy",
+          "ContactNo": "9890605152"
+        },
+        {
+          "Name": "Siddhesh Dhaamale",
+          "Status": "Busy",
+          "ContactNo": "9890605152"
+        },
+        {
+          "Name": "Kran Dighe",
+          "Status": "Available",
+          "ContactNo": "9890605152"
+        }
+      ]
     },
     {
+      "id": 5,
       "Name": "shinde brothers cars and bike services",
       "Rating": "5",
-      "Adress": "Otur"
+      "Adress": "Otur",
+      "mechanics": [
+        {
+          "Name": "Girish Navale",
+          "Status": "Busy",
+          "ContactNo": "9890605152"
+        },
+        {
+          "Name": "Ram Shastri",
+          "Status": "Busy",
+          "ContactNo": "9890605152"
+        },
+        {
+          "Name": "Siddhesh Dhaamale",
+          "Status": "Busy",
+          "ContactNo": "9890605152"
+        },
+        {
+          "Name": "Kran Dighe",
+          "Status": "Available",
+          "ContactNo": "9890605152"
+        }
+      ]
     },
     {
+      "id": 6,
       "Name": " cars and bike care",
       "Rating": "3",
-      "Adress": "Rajuri"
+      "Adress": "Rajuri",
+      "mechanics": [
+        {
+          "Name": "Girish Navale",
+          "Status": "Busy",
+          "ContactNo": "9890605152"
+        },
+        {
+          "Name": "Ram Shastri",
+          "Status": "Busy",
+          "ContactNo": "9890605152"
+        },
+        {
+          "Name": "Siddhesh Dhaamale",
+          "Status": "Busy",
+          "ContactNo": "9890605152"
+        },
+        {
+          "Name": "Kran Dighe",
+          "Status": "Available",
+          "ContactNo": "9890605152"
+        }
+      ]
     },
     {
+      "id": 7,
       "Name": "All cars and bike services",
       "Rating": "3",
-      "Adress": "Rajuri"
+      "Adress": "Rajuri",
+      "mechanics": [
+        {
+          "Name": "Girish Navale",
+          "Status": "Busy",
+          "ContactNo": "9890605152"
+        },
+        {
+          "Name": "Ram Shastri",
+          "Status": "Busy",
+          "ContactNo": "9890605152"
+        },
+        {
+          "Name": "Siddhesh Dhaamale",
+          "Status": "Busy",
+          "ContactNo": "9890605152"
+        },
+        {
+          "Name": "Kran Dighe",
+          "Status": "Available",
+          "ContactNo": "9890605152"
+        }
+      ]
     },
     {
+      "id": 8,
       "Name": "onSpot cars services",
       "Rating": "3",
-      "Adress": "Rajuri"
+      "Adress": "Rajuri",
+      "mechanics": [
+        {
+          "Name": "Girish Navale",
+          "Status": "Busy",
+          "ContactNo": "9890605152"
+        },
+        {
+          "Name": "Ram Shastri",
+          "Status": "Busy",
+          "ContactNo": "9890605152"
+        },
+        {
+          "Name": "Siddhesh Dhaamale",
+          "Status": "Busy",
+          "ContactNo": "9890605152"
+        },
+        {
+          "Name": "Kran Dighe",
+          "Status": "Available",
+          "ContactNo": "9890605152"
+        }
+      ]
     },
     {
+      "id": 9,
       "Name": "helpfull cars and bike services",
       "Rating": "3",
-      "Adress": "Rajuri"
+      "Adress": "Rajuri",
+      "mechanics": [
+        {
+          "Name": "Girish Navale",
+          "Status": "Busy",
+          "ContactNo": "9890605152"
+        },
+        {
+          "Name": "Ram Shastri",
+          "Status": "Busy",
+          "ContactNo": "9890605152"
+        },
+        {
+          "Name": "Siddhesh Dhaamale",
+          "Status": "Busy",
+          "ContactNo": "9890605152"
+        },
+        {
+          "Name": "Kran Dighe",
+          "Status": "Available",
+          "ContactNo": "9890605152"
+        }
+      ]
     },
     {
+      "id": 10,
       "Name": "Car Doctor",
       "Rating": "3.5",
-      "Adress": "Alephata"
+      "Adress": "Alephata",
+      "mechanics": [
+        {
+          "Name": "Girish Navale",
+          "Status": "Busy",
+          "ContactNo": "9890605152"
+        },
+        {
+          "Name": "Ram Shastri",
+          "Status": "Busy",
+          "ContactNo": "9890605152"
+        },
+        {
+          "Name": "Siddhesh Dhaamale",
+          "Status": "Busy",
+          "ContactNo": "9890605152"
+        },
+        {
+          "Name": "Kran Dighe",
+          "Status": "Available",
+          "ContactNo": "9890605152"
+        }
+      ]
     },
     {
+      "id": 11,
       "Name": "Full car health checkup",
       "Rating": "3.5",
-      "Adress": "Alephata"
+      "Adress": "Alephata",
+      "mechanics": [
+        {
+          "Name": "Girish Navale",
+          "Status": "Busy",
+          "ContactNo": "9890605152"
+        },
+        {
+          "Name": "Ram Shastri",
+          "Status": "Busy",
+          "ContactNo": "9890605152"
+        },
+        {
+          "Name": "Siddhesh Dhaamale",
+          "Status": "Busy",
+          "ContactNo": "9890605152"
+        },
+        {
+          "Name": "Kran Dighe",
+          "Status": "Available",
+          "ContactNo": "9890605152"
+        }
+      ]
     },
     {
+      "id": 12,
       "Name": "Empire Car and Bike Garage",
       "Rating": "3.5",
-      "Adress": "Alephata"
+      "Adress": "Alephata",
+      "mechanics": [
+        {
+          "Name": "Girish Navale",
+          "Status": "Busy",
+          "ContactNo": "9890605152"
+        },
+        {
+          "Name": "Ram Shastri",
+          "Status": "Busy",
+          "ContactNo": "9890605152"
+        },
+        {
+          "Name": "Siddhesh Dhaamale",
+          "Status": "Busy",
+          "ContactNo": "9890605152"
+        },
+        {
+          "Name": "Kran Dighe",
+          "Status": "Available",
+          "ContactNo": "9890605152"
+        }
+      ]
     },
     {
+      "id": 13,
       "Name": "Car Garage",
       "Rating": "3.5",
-      "Adress": "Alephata"
+      "Adress": "Alephata",
+      "mechanics": [
+        {
+          "Name": "Girish Navale",
+          "Status": "Busy",
+          "ContactNo": "9890605152"
+        },
+        {
+          "Name": "Ram Shastri",
+          "Status": "Busy",
+          "ContactNo": "9890605152"
+        },
+        {
+          "Name": "Siddhesh Dhaamale",
+          "Status": "Busy",
+          "ContactNo": "9890605152"
+        },
+        {
+          "Name": "Kran Dighe",
+          "Status": "Available",
+          "ContactNo": "9890605152"
+        }
+      ]
     },
     {
+      "id": 14,
       "Name": "Multi-Brand service",
       "Rating": "4",
-      "Adress": "Belhe"
+      "Adress": "Belhe",
+      "mechanics": [
+        {
+          "Name": "Girish Navale",
+          "Status": "Busy",
+          "ContactNo": "9890605152"
+        },
+        {
+          "Name": "Ram Shastri",
+          "Status": "Busy",
+          "ContactNo": "9890605152"
+        },
+        {
+          "Name": "Siddhesh Dhaamale",
+          "Status": "Busy",
+          "ContactNo": "9890605152"
+        },
+        {
+          "Name": "Kran Dighe",
+          "Status": "Available",
+          "ContactNo": "9890605152"
+        }
+      ]
     },
     {
+      "id": 15,
       "Name": "your garage",
       "Rating": "4",
-      "Adress": "Belhe"
+      "Adress": "Belhe",
+      "mechanics": [
+        {
+          "Name": "Girish Navale",
+          "Status": "Busy",
+          "ContactNo": "9890605152"
+        },
+        {
+          "Name": "Ram Shastri",
+          "Status": "Busy",
+          "ContactNo": "9890605152"
+        },
+        {
+          "Name": "Siddhesh Dhaamale",
+          "Status": "Busy",
+          "ContactNo": "9890605152"
+        },
+        {
+          "Name": "Kran Dighe",
+          "Status": "Available",
+          "ContactNo": "9890605152"
+        }
+      ]
     },
     {
+      "id": 16,
       "Name": "car point services",
       "Rating": "4",
-      "Adress": "Belhe"
+      "Adress": "Belhe",
+      "mechanics": [
+        {
+          "Name": "Girish Navale",
+          "Status": "Busy",
+          "ContactNo": "9890605152"
+        },
+        {
+          "Name": "Ram Shastri",
+          "Status": "Busy",
+          "ContactNo": "9890605152"
+        },
+        {
+          "Name": "Siddhesh Dhaamale",
+          "Status": "Busy",
+          "ContactNo": "9890605152"
+        },
+        {
+          "Name": "Kran Dighe",
+          "Status": "Available",
+          "ContactNo": "9890605152"
+        }
+      ]
     },
     {
+      "id": 17,
       "Name": "shreenath services",
       "Rating": "4",
-      "Adress": "Belhe"
+      "Adress": "Belhe",
+      "mechanics": [
+        {
+          "Name": "Girish Navale",
+          "Status": "Busy",
+          "ContactNo": "9890605152"
+        },
+        {
+          "Name": "Ram Shastri",
+          "Status": "Available",
+          "ContactNo": "9890605152"
+        },
+        {
+          "Name": "Siddhesh Dhaamale",
+          "Status": "Busy",
+          "ContactNo": "9890605152"
+        },
+        {
+          "Name": "Kran Dighe",
+          "Status": "Available",
+          "ContactNo": "9890605152"
+        }
+      ]
     },
     {
+      "id": 18,
       "Name": "Ride 4 life garge",
       "Rating": "4.5",
-      "Adress": "Ale"
+      "Adress": "Ale",
+      "mechanics": [
+        {
+          "Name": "Girish Navale",
+          "Status": "Busy",
+          "ContactNo": "9890605152"
+        },
+        {
+          "Name": "Ram Shastri",
+          "Status": "Busy",
+          "ContactNo": "9890605152"
+        },
+        {
+          "Name": "Siddhesh Dhaamale",
+          "Status": "Busy",
+          "ContactNo": "9890605152"
+        },
+        {
+          "Name": "Kran Dighe",
+          "Status": "Available",
+          "ContactNo": "9890605152"
+        }
+      ]
     },
     {
+      "id": 19,
       "Name": "Bike health garage",
       "Rating": "4",
-      "Adress": "Ale"
+      "Adress": "Ale",
+      "mechanics": [
+        {
+          "Name": "Girish Navale",
+          "Status": "Busy",
+          "ContactNo": "9890605152"
+        },
+        {
+          "Name": "Ram Shastri",
+          "Status": "Busy",
+          "ContactNo": "9890605152"
+        },
+        {
+          "Name": "Siddhesh Dhaamale",
+          "Status": "Busy",
+          "ContactNo": "9890605152"
+        },
+        {
+          "Name": "Kran Dighe",
+          "Status": "Available",
+          "ContactNo": "9890605152"
+        }
+      ]
     },
     {
+      "id": 20,
       "Name": "Car Platform ",
       "Rating": "4",
-      "Adress": "Ale"
+      "Adress": "Ale",
+      "mechanics": [
+        {
+          "Name": "Girish Navale",
+          "Status": "Busy",
+          "ContactNo": "9890605152"
+        },
+        {
+          "Name": "Ram Shastri",
+          "Status": "Busy",
+          "ContactNo": "9890605152"
+        },
+        {
+          "Name": "Siddhesh Dhaamale",
+          "Status": "Available",
+          "ContactNo": "9890605152"
+        },
+        {
+          "Name": "ketan tambe",
+          "Status": "Available",
+          "ContactNo": "9890605152"
+        }
+      ]
     },
     {
+      "id": 21,
       "Name": "car services",
       "Rating": "4",
-      "Adress": "Ale"
+      "Adress": "Ale",
+      "mechanics": [
+        {
+          "Name": "Girish Navale",
+          "Status": "Available",
+          "ContactNo": "9890605152"
+        },
+        {
+          "Name": "Ram Shastri",
+          "Status": "Busy",
+          "ContactNo": "9890605152"
+        },
+        {
+          "Name": "Siddhesh Dhaamale",
+          "Status": "Busy",
+          "ContactNo": "9890605152"
+        },
+        {
+          "Name": "Kran Dighe",
+          "Status": "Available",
+          "ContactNo": "9890605152"
+        }
+      ]
     },
     {
+      "id": 22,
       "Name": "Echo tech car services",
       "Rating": "4",
-      "Adress": "Ale"
+      "Adress": "Ale",
+      "mechanics": [
+        {
+          "Name": "Girish Navale",
+          "Status": "Busy",
+          "ContactNo": "9890605152"
+        },
+        {
+          "Name": "Ram Shastri",
+          "Status": "Available",
+          "ContactNo": "9890605152"
+        },
+        {
+          "Name": "Siddhesh Dhaamale",
+          "Status": "Busy",
+          "ContactNo": "9890605152"
+        },
+        {
+          "Name": "Kran Dighe",
+          "Status": "Available",
+          "ContactNo": "9890605152"
+        }
+      ]
     }
   ],
   "users": [
@@ -635,6 +1164,66 @@
       "email": "dhamalesiddhesh07@gmail.com",
       "phoneNo": "09561856673",
       "password": "1234",
+      "address": [
+        "otur"
+      ]
+    },
+    {
+      "id": 41,
+      "name": "DHAMALE SIDDHESH SATISH",
+      "email": "dhamalesiddhesh07@gmail.com",
+      "phoneNo": "09561856673",
+      "password": "1212",
+      "address": [
+        "otur"
+      ]
+    },
+    {
+      "id": 42,
+      "name": "DHAMALE SIDDHESH SATISH",
+      "email": "dhamalesiddhesh07@gmail.com",
+      "phoneNo": "09561856673",
+      "password": "1212",
+      "address": [
+        "otur"
+      ]
+    },
+    {
+      "id": 43,
+      "name": "DHAMALE SIDDHESH SATISH",
+      "email": "dhamalesiddhesh07@gmail.com",
+      "phoneNo": "09561856673",
+      "password": "1212",
+      "address": [
+        "otur"
+      ]
+    },
+    {
+      "id": 44,
+      "name": "DHAMALE SIDDHESH SATISH",
+      "email": "dhamalesiddhesh07@gmail.com",
+      "phoneNo": "09561856673",
+      "password": "1212",
+      "address": [
+        "otur"
+      ]
+    },
+    {
+      "id": 45,
+      "name": "DHAMALE SIDDHESH SATISH",
+      "email": "dhamalesiddhesh07@gmail.com",
+      "phoneNo": "09561856673",
+      "password": "1234",
+      "address": [
+        "otur"
+      ]
+    },
+    {
+      "id": 46,
+      "name": "DHAMALE SIDDHESH SATISH",
+      "email": "dhamalesiddhesh07@gmail.com",
+      "phoneNo": "09561856673",
+      "password": "1212",
       "address": [
         "otur"
       ]
